@@ -1,0 +1,36 @@
+title: "Will Guillou"
+email: "will@guilloutran.codes"
+description: >- # this means to ignore newlines until "baseurl:"
+  I am a student at The Village School. Manager and Writer at guilloutran.codes. I enjoy coding and reading in my free time!.
+baseurl: "" 
+url: "https://www.guilloutran.codes" 
+twitter_username: "guilloutran"
+github_username:  "guilloutran"
+via_info: "in Houston"
+future: false
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:title/
+  work:
+    output: true
+    permalink: /:collection/:title/
+  posts:
+    output: true 
+    permalink: /:collection/:title
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
