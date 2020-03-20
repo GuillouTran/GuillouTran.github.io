@@ -16,11 +16,11 @@ collections:
     title: Work
     output: true
     permalink: "/:collection/:title/"
-email: will@guilloutran.codes
-description: I am a student at The Village School. Manager and Writer at guilloutran.codes.
+email: will@guilloutran.com
+description: I am a student at The Village School. Manager and Writer at guilloutran.com.
   I enjoy coding and reading in my free time!.
 baseurl: ''
-url: https://guilloutran.codes
+url: https://guilloutran.com
 twitter_username: guilloutran
 github_username: guilloutran
 via_info: in Houston
