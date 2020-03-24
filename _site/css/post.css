@@ -160,7 +160,7 @@ and (max-width: 768px)
 
   }
 
-  @media (prefers-color-scheme: light) {
+  @media (prefers-color-scheme: dark) {
     a {
       color: black;
       text-decoration-color: #FF6900;

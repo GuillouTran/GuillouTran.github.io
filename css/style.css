@@ -516,7 +516,7 @@ div#platform-container {
 
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     html {
         background-color: black;
         color: white;
@@ -538,4 +538,16 @@ div#platform-container {
     #interact {
         color: #EBE8E4;
     }
+  }
+  
+  html, html[data-theme="light"] {
+    --light-text-color: hsl(0, 0%, 35%);
+    --main-background-color: hsl(0, 5%, 95%);
+    --main-text-color: hsl(0, 0%, 0%);
+  }
+  
+  html[data-theme="dark"] {
+    --light-text-color: hsl(0, 0%, 60%);
+    --main-background-color: hsl(0, 0%, 10%);
+    --main-text-color: hsl(0, 10%, 80%);
   }
